@@ -21,6 +21,7 @@
     .nav__list{
         column-gap: 20px;
     }
+
     .header__title{
         font-size: 55px;
         text-align: center;
@@ -31,8 +32,33 @@
     .header__btns{
         justify-content: center;
     }
+    .films__card-content:hover .fad{
+        transform: none;
+    }
+    .films__card-content:hover .films__card-time {
+        transform: none;
+    }
+
+    .collections__cards-content:hover  .fad{
+        transform: none;
+     }
+     
+     .collections__cards-content:hover  .collections__card-title{
+        transform: none;
+     }
+     
+     .collections__cards-content:hover::before{
+         transform: none;
+     }
+     .collections__cards-content:hover::after{
+         transform: none;
+     }
     .item1__subtitle{
         text-align: justify;
+        transform: none;
+    }
+    .item1__title {
+        transform: none;
     }
     .footer__box{
         flex-direction: column;
